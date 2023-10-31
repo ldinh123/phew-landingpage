@@ -21,10 +21,7 @@
 .phew-feature-text b{
     padding:  0 15px;
 }
-  
-  .swiper-slide:not(.swiper-slide-active){
 
-  }
   .card__content{
     display: flex;
     align-items: start;

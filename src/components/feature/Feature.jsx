@@ -11,8 +11,6 @@ const Feature = () => {
         </div>
       </div>
       <div className='phew-feature-slider'>
-        <section className='swiper mySwiper'>
-        <div className='card swiper-slide'>
           <div class="card-swiper-slide-1">
             <div class="card__image">
             </div>
@@ -21,8 +19,6 @@ const Feature = () => {
               <p class="card__text">Mùi hương của cây cối, của căn nhà gỗ trong rừng</p>
             </div>
           </div>
-        </div>
-        <div className='card swiper-slide'>
           <div class="card-swiper-slide-2">
             <div class="card__image">
             </div>
@@ -31,8 +27,6 @@ const Feature = () => {
               <p class="card__text">Mùi hương ngọt ngào, nhẹ dịu tận hưởng khu vườn đầy hoa</p>
             </div>
           </div>
-        </div>
-        <div className='card swiper-slide'>
           <div class="card-swiper-slide-3">
             <div class="card__image">
             </div>
@@ -41,8 +35,6 @@ const Feature = () => {
               <p class="card__text">Mùi hương của muối biển, những con sóng vỗ rì rào</p>
             </div>
           </div>
-        </div>
-        </section>
       </div>
     </div>  
   )

@@ -1,0 +1,121 @@
+
+.phew-navbar-links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:right ;
+}
+
+.phew-navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+}
+
+.phew-navbar-logo img{
+    height: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.phew-navbar-links-container span{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #bfd8d5;
+    color: #575555;
+}
+
+button{
+    display: inline-block;
+    width: 225px;
+    height: 70px;
+    margin: 40px 35px;
+    border-radius: 47px;
+    background-color: #575555;
+    color: #ffffff; 
+    font-size: 30px ;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s;
+    /* border: #000 solid 2.5px; */
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 5px;
+}
+  
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.brand:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 5px;
+}
+  
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.feature:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 5px;
+}
+  
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.blog:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
+
+.about-container {
+  max-height: 1300px;
+}
+
+.about-title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 80px;
+  font-weight: 100;
+}
+
+.about-description {
+  text-align: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+.about-bg-element {
+  position: relative;
+  top: -200px;
+  max-height: 1000px;
+}
+
+.about-element {
+  position: relative;
+  top: 666px;
+  max-height: 1000px;
+}
+
+.about-suggest {
+  position: relative;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: center;
+  top: -550px;
+  font-size: 30px;
+  max-height: 700px;
+}
+
+.product {
+  position: relative;
+  top: -500px;
+  display: flex;
+  justify-content: center;
+  margin: 75px 150px;
+}
+
+.product.bong .product-text {
+  color: #b06a8b;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+}
+
+.product-text h1 {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.product-text .content {
+  font-size: 30px;
+  font-weight: light;
+}
+
+.product-content p {
+  font-size: 20px;
+}
+
+.product.bot .product-text {
+  color: #255085;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+}
+
+.product.bong {
+  gap: 60px;
+}
+
+.product.nau {
+  gap: 130px;
+}
+
+.product.bot {
+  gap: 40px;
+}
+
+.product.mam {
+  gap: 100px;
+}
+
+.product.bi {
+  gap: 40px;
+}
+
+.product.nau .product-text h1 {
+  color: #86550e;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+}
+
+.product.nau .product-text {
+  color: #402c1d;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: start;
+}
+
+.product.bi .product-text {
+  color: #402c1d;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: end;
+}
+
+.product.bi .product-text h1 {
+  color: #f94a1d;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: end;
+}
+
+.product.bi .product-text {
+  color: #ff8019;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: end;
+}
+
+.product.mam .product-text {
+  color: #246920;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: end;
+}
+
+.product-img .bong-element-1 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .bong-element-2 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .bi-element-1 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .bi-element-2 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .bi-element-3 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .bi-element-4 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .bot-element-1 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .bot-element-2 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .bot-element-3 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .bot-element-4 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .mam-element-1 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .mam-element-2 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .mam-element-3 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .mam-element-4 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .mam-element-5 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .nau-element-1 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .nau-element-2 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .nau-element-3 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .nau-element-4 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+.product-img .nau-element-5 {
+  animation-iteration-count: 10;
+  animation-duration: 10s;
+  animation-name: shake;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(200deg);
+  }
+
+  25% {
+    transform: rotate(340deg);
+  }
+
+  50% {
+    transform: rotate(200deg);
+  }
+
+  75% {
+    transform: rotate(340deg);
+  }
+
+  100% {
+    transform: rotate(200deg);
+  }
+}
+@media screen and (min-width: 1025px) {
+  .tb,
+  .mb {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pc,
+  .mb {
+    display: none;
+  }
+
+  .about-title h1 {
+    font-size: 70px;
+  }
+
+  .about-description {
+    line-height: 80px;
+    font-size: 20px;
+  }
+
+  .about-suggest {
+    position: relative;
+    text-align: center;
+    top: -550px;
+    font-size: 20px;
+    max-height: 700px;
+  }
+  .bi-element-4 {
+    position: relative;
+    left: 100px;
+  }
+}

@@ -1,121 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
 
-.phew-navbar-links-container{
-    display: flex;
-    flex-direction: row;
-    justify-content:right ;
+.navbar {
+  background: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
-.phew-navbar-links{
-    flex: 1;
-    display: flex;
-    justify-content: space-between  ;
-    align-items: center;
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
 }
 
-.phew-navbar-logo img{
-    height: 50px;
-    cursor: pointer;
-    padding-left: 20px;
+.container {
+  z-index: 1;
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 50px;
 }
 
-.phew-navbar-links-container span{
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 30px;
-    margin: 0 10px;
-    cursor: pointer;
-    font-weight: 600;
+.navbar-logo {
+  color: #000;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  margin-right: 0.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.phew-navbar-links-container span {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.nav-item {
+  height: 80px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  color: #000;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.4s ease;
+  padding: 0px 1rem;
+  height: 100%;
+}
+
+.nav-links::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 1rem;
+  width: 0;
+  height: 2.5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.2s ease-in;
+}
+
+.nav-links:hover::before {
+  width: calc(100% - 32px);
+}
+
+.fa-bars {
+  color: #000;
+}
+
+.menu-icon {
+  display: none;
 }
 
 button:hover {
-    background: #bfd8d5;
-    color: #575555;
+  background: #bfd8d5;
+  color: #575555;
 }
 
-button{
-    display: inline-block;
-    width: 225px;
-    height: 70px;
-    margin: 40px 35px;
-    border-radius: 47px;
-    background-color: #575555;
-    color: #ffffff; 
-    font-size: 30px ;
-    cursor: pointer;
-    font-family: 'Be Vietnam Pro', sans-serif;
+button {
+  display: inline-block;
+  width: 10rem;
+  height: 50px;
+  margin: 15px 0px;
+  border-radius: 47px;
+  background-color: #575555;
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: "Be Vietnam Pro", sans-serif;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.navbar-mobile-logo {
+  display: none;
+}
+
+.navbar-logo img {
+  position: relative;
+  right: -125px;
+  height: 50px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0.8;
+    transition: 0.4s ease-in;
+  }
+
+  .nav-menu.active {
+    background: #fff;
+    left: 0;
+    opacity: 0.8;
+    transition: all 0.6s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-item:hover {
     border: none;
-    font-weight: 600;
-    transition: all 0.3s;
-    /* border: #000 solid 2.5px; */
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .navbar-logo img {
+    position: relative;
+    right: -80px;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .navbar-mobile-logo {
+    display: block;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.6rem;
+  }
+
+  .phew-navbar-button {
+    display: none;
+  }
 }
 
-.hover-underline-animation {
+@media screen and (max-width: 1025px) {
+  .navbar-logo img {
     position: relative;
-    color: black;
-    padding-bottom: 5px;
-}
-  
-.hover-underline-animation:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000000;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    right: -40px;
   }
-  
-.brand:hover .hover-underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }
 
-.hover-underline-animation {
+@media screen and (max-width: 769px) {
+  .navbar-logo img {
     position: relative;
-    color: black;
-    padding-bottom: 5px;
-}
-  
-.hover-underline-animation:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000000;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    right: -215px;
   }
-  
-.feature:hover .hover-underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }
 
-.hover-underline-animation {
-    position: relative;
-    color: black;
-    padding-bottom: 5px;
-}
-  
-.hover-underline-animation:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000000;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+@media screen and (max-width: 426px) {
+  .navbar-logo img {
+    display: none;
   }
-  
-.blog:hover .hover-underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }

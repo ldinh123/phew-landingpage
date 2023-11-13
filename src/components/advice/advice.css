@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
+
+.advice {
+  position: relative;
+  height: 1500px;
+}
+
+.advice-title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.advice-content {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.advice-content-tl {
+  position: relative;
+}
+
+.advice-content-tr {
+  position: relative;
+}
+
+.advice-content-bl {
+  position: relative;
+}
+
+.advice-content-br {
+  position: relative;
+}
+
+@media screen and (min-device-width: 1025px) {
+  .tb,
+  .mb {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .pc,
+  .mb {
+    display: none;
+  }
+
+  .advice {
+    height: 1000px;
+  }
+
+  .advice-title h1 {
+    font-size: 50px;
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-device-width: 768px) {
+  .advice-content .pc,
+  .advice-content .tb {
+    display: none;
+  }
+  .advice {
+    height: 1000px;
+  }
+
+  .advice-title h1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Brand, CTA, Feature, Navbar } from './components';
-import { Blog, Features, Footer, Header, Possibility } from './containers';
+import { Advice, Brand, CTA, Feature, Navbar } from './components';
+import { About, Features, Footer, Header, Possibility } from './containers';
 import './App.css'
 
 const App = () => {
@@ -8,15 +8,19 @@ const App = () => {
     <div className='App'>
       <div className='background'>
         <Navbar/>
-        <Header/>
+        <Header/> 
         <Feature/>
+        <About/>
+        <Possibility/>
+        <Brand/>
+        <Advice/>
+        <Footer/>
       </div>
-      {/* <Brand/>
+      {/* 
       <Features/>
       <Possibility/>
-      <CTA/>
-      <Blog/>
-      <Footer/> */}
+      <CTA/>*/}
+
     </div>
   )
 }

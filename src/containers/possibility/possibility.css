@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
+
+.possibility-title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.wrapper-possibility {
+  display: flex;
+  padding: 40px 35px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper-possibility .carousel-possibility {
+  place-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 4) - 10px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel-possibility::-webkit-scrollbar {
+  display: none;
+}
+.carousel-possibility.no-transition {
+  scroll-behavior: auto;
+}
+.carousel-possibility.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel-possibility.dragging .card-possibility {
+  cursor: grab;
+  user-select: none;
+}
+.carousel-possibility :where(.card-possibility, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-possibility .card-possibility {
+  scroll-snap-align: start;
+  list-style: none;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.carousel-possibility .card-possibility h2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 3rem;
+  color: #009354;
+  font-style: italic;
+  padding-top: 10px;
+}
+.carousel-possibility .card-possibility span {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #009354;
+  font-size: 1.5rem;
+}
+
+.card-possibility .mam {
+  border: #009354 10px solid;
+  border-radius: 45px;
+  height: 200px;
+  width: 400px;
+  padding-left: 10px;
+}
+
+.card-possibility img {
+  border: #009354 10px solid;
+  border-radius: 45px;
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper-possibility .carousel-possibility {
+    grid-auto-columns: calc((100% / 2) - 20px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper-possibility .carousel-possibility {
+    grid-auto-columns: 100%;
+  }
+}

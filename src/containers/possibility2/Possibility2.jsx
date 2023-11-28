@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
-import "./possibility.css";
+import "./possibility2.css";
 import test_1 from "../../assets/test1.jpg";
 import test_2 from "../../assets/test2.jpg";
 import test_3 from "../../assets/test3.jpg";
 import test_4 from "../../assets/test4.jpg";
 import test_5 from "../../assets/test5.jpg";
 
-function Possibility() {
+function Possibility2() {
   useEffect(() => {
-    const scrollers = document.querySelectorAll(".scroller");
+    const scrollers = document.querySelectorAll(".scroller2");
 
     // If a user hasn't opted in for recuded motion, then we add the animation
     if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -37,22 +37,20 @@ function Possibility() {
   });
 
   return (
-    <div class="scroller" data-direction="right" data-speed="slow">
+    <div class="scroller2" data-direction="left" data-speed="slow">
       <div class="scroller__inner">
-        <div className="box-content">
-          <h2>Refill</h2>
-          <span>
-            Để tận dụng cốc đã hết, cậu có thể re-phew với các lõi nến khác.
-          </span>
-        </div>
         <img src={test_1} alt="" />
         <img src={test_2} alt="" />
         <img src={test_3} alt="" />
         <img src={test_4} alt="" />
         <img src={test_5} alt="" />
+        <div className="box-content">
+          <h2>Reuse</h2>
+          <span>Cậu còn có thể dùng tớ để trồng cây như này nè</span>
+        </div>
       </div>
     </div>
   );
 }
 
-export default Possibility;
+export default Possibility2;

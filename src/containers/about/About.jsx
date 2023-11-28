@@ -57,7 +57,12 @@ const About = () => {
           src={left_bg}
           alt="left-bg"
           className="pc"
-          style={{ height: "950px", position: "relative", right: "100px" }}
+          style={{
+            height: "950px",
+            position: "relative",
+            right: "100px",
+            top: "-50px",
+          }}
         />
         <img
           src={left_bg}
@@ -78,8 +83,9 @@ const About = () => {
           style={{
             height: "850px",
             position: "relative",
-            top: "-950px",
+            top: "-1000px",
             left: "760px",
+            zIndex: -1,
           }}
         />
         <img
@@ -91,6 +97,7 @@ const About = () => {
             position: "relative",
             top: "-600px",
             left: "510px",
+            zIndex: -1,
           }}
         />
         <img src={right_bg} alt="" className="mb" style={{ height: "500px" }} />
@@ -104,7 +111,7 @@ const About = () => {
           style={{
             height: "200px",
             position: "absolute",
-            top: "-1530px",
+            top: "-1580px",
             left: "510px",
             zIndex: "4",
             cursor: "pointer",
@@ -144,7 +151,7 @@ const About = () => {
           style={{
             height: "200px",
             position: "absolute",
-            top: "-1530px",
+            top: "-1580px",
             left: "799px",
             zIndex: "3",
             cursor: "pointer",
@@ -184,7 +191,7 @@ const About = () => {
           style={{
             height: "200px",
             position: "absolute",
-            top: "-1520px",
+            top: "-1570px",
             left: "320px",
             cursor: "pointer",
           }}
@@ -221,7 +228,7 @@ const About = () => {
           style={{
             height: "400px",
             position: "absolute",
-            top: "-1650px",
+            top: "-1700px",
             left: "570px",
             cursor: "pointer",
           }}
@@ -258,7 +265,7 @@ const About = () => {
           style={{
             height: "250px",
             position: "absolute",
-            top: "-1550px",
+            top: "-1600px",
             left: "950px",
             zIndex: "5",
             cursor: "pointer",

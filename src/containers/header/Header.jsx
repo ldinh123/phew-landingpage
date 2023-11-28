@@ -66,7 +66,6 @@ const Header = () => {
           <div className="element12">
             <img src={element12} alt="elm-12" style={{ height: "150px" }} />
           </div>
-
           <div className="element15">
             <img src={element15} alt="elm-15" style={{ height: "150px" }} />
           </div>

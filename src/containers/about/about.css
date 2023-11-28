@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
 
 .about-container {
-  max-height: 1300px;
+  max-height: 1100px;
 }
 
 .about-title h1 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 80px;
+  font-size: 65px;
   font-weight: 100;
 }
 
 .about-description {
   text-align: center;
   font-family: "Be Vietnam Pro", sans-serif;
-  line-height: 80px;
-  font-size: 25px;
+  line-height: 50px;
+  font-size: 20px;
 }
 
 .about-bg-element {
@@ -35,14 +35,14 @@
   position: relative;
   font-family: "Be Vietnam Pro", sans-serif;
   text-align: center;
-  top: -550px;
-  font-size: 30px;
+  top: -620px;
+  font-size: 20px;
   max-height: 700px;
 }
 
 .product {
   position: relative;
-  top: -500px;
+  top: -650px;
   display: flex;
   justify-content: center;
   margin: 75px 150px;
@@ -139,7 +139,7 @@
 .product-img .bong-element-2 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-2;
 }
 
 .product-img .bi-element-1 {
@@ -151,31 +151,31 @@
 .product-img .bi-element-2 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-3;
 }
 
 .product-img .bi-element-3 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-4;
 }
 
 .product-img .bi-element-4 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-2;
 }
 
 .product-img .bot-element-1 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-4;
 }
 
 .product-img .bot-element-2 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-2;
 }
 
 .product-img .bot-element-3 {
@@ -187,7 +187,7 @@
 .product-img .bot-element-4 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-3;
 }
 
 .product-img .mam-element-1 {
@@ -205,25 +205,25 @@
 .product-img .mam-element-3 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-2;
 }
 
 .product-img .mam-element-4 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-3;
 }
 
 .product-img .mam-element-5 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-4;
 }
 
 .product-img .nau-element-1 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-3;
 }
 
 .product-img .nau-element-2 {
@@ -235,19 +235,36 @@
 .product-img .nau-element-3 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-2;
 }
 
 .product-img .nau-element-4 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-4;
 }
 
 .product-img .nau-element-5 {
   animation-iteration-count: 10;
   animation-duration: 10s;
-  animation-name: shake;
+  animation-name: shake-3;
+}
+
+.animation {
+  animation-name: cssAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(0deg) translate(-100px);
+  }
+  to {
+    -webkit-transform: rotate(0deg) translate(100px);
+  }
 }
 
 @keyframes shake {
@@ -256,7 +273,7 @@
   }
 
   25% {
-    transform: rotate(340deg);
+    transform: rotate(270deg);
   }
 
   50% {
@@ -264,13 +281,80 @@
   }
 
   75% {
-    transform: rotate(340deg);
+    transform: rotate(270deg);
   }
 
   100% {
     transform: rotate(200deg);
   }
 }
+
+@keyframes shake-2 {
+  0% {
+    transform: rotate(30deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(30deg);
+  }
+
+  75% {
+    transform: rotate(90deg);
+  }
+
+  100% {
+    transform: rotate(30deg);
+  }
+}
+
+@keyframes shake-3 {
+  0% {
+    transform: rotate(180deg);
+  }
+
+  25% {
+    transform: rotate(240deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(250deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes shake-4 {
+  0% {
+    transform: rotate(60deg);
+  }
+
+  25% {
+    transform: rotate(120deg);
+  }
+
+  50% {
+    transform: rotate(240deg);
+  }
+
+  75% {
+    transform: rotate(120deg);
+  }
+
+  100% {
+    transform: rotate(60deg);
+  }
+}
+
 @media screen and (min-width: 1025px) {
   .tb,
   .mb {

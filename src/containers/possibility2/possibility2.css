@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
 
-.scroller {
+.scroller2 {
   max-width: 600px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .scroller__inner {
@@ -11,52 +11,52 @@
   gap: 50px;
 }
 
-.scroller[data-animated="true"] .scroller__inner {
+.scroller2[data-animated="true"] .scroller__inner {
   width: max-content;
   flex-wrap: nowrap;
   animation: scroll var(--_animation-duration, 40s)
     var(--_animation-direction, forwards) linear infinite;
 }
 
-.scroller[data-direction="right"] {
+.scroller2[data-direction="right"] {
   --_animation-direction: reverse;
 }
 
-.scroller[data-direction="left"] {
+.scroller2[data-direction="left"] {
   --_animation-direction: forwards;
 }
 
-.scroller[data-speed="fast"] {
+.scroller2[data-speed="fast"] {
   --_animation-duration: 20s;
 }
 
-.scroller[data-speed="slow"] {
+.scroller2[data-speed="slow"] {
   --_animation-duration: 50s;
 }
 
-.scroller img {
-  border: #009354 10px solid;
+.scroller2 img {
+  border: #ff8019 10px solid;
   border-radius: 45px;
   height: 200px;
   width: 200px;
 }
 
-.scroller h2 {
+.scroller2 h2 {
   font-family: "Be Vietnam Pro", sans-serif;
   font-size: 3rem;
-  color: #009354;
+  color: #ff8019;
   font-style: italic;
   padding-top: 10px;
 }
 
-.scroller span {
+.scroller2 span {
   font-family: "Be Vietnam Pro", sans-serif;
-  color: #009354;
+  color: #ff8019;
   font-size: 1.5rem;
 }
 
-.scroller .box-content {
-  border: #009354 10px solid;
+.scroller2 .box-content {
+  border: #ff8019 10px solid;
   border-radius: 45px;
   height: 200px;
   width: 400px;

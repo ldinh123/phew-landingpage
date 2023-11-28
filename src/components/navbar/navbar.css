@@ -2,7 +2,7 @@
 
 .navbar {
   background: #fff;
-  height: 80px;
+  height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +57,7 @@
 }
 
 .nav-item {
-  height: 80px;
+  height: 65px;
   border-bottom: 2px solid transparent;
 }
 
@@ -79,7 +79,7 @@
 .nav-links::before {
   content: "";
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   left: 1rem;
   width: 0;
   height: 2.5px;

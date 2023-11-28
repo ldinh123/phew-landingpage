@@ -134,7 +134,7 @@ function Feature() {
             <div class="img" id="mam">
               <img src={Mam} alt="img" draggable="false"></img>
             </div>
-            <h2>Mầm</h2>
+            <h2 id="h2-mam">Mầm</h2>
             <span>Mùi hương của cây cối, của căn nhà gỗ trong rừng</span>
           </li>
           <li class="card">
@@ -148,21 +148,21 @@ function Feature() {
             <div class="img" id="bot">
               <img src={Bot} alt="img" draggable="false"></img>
             </div>
-            <h2>Bọt</h2>
+            <h2 id="h2-bot">Bọt</h2>
             <span>Mùi hương của muối biển, những con sóng vỗ rì rào</span>
           </li>
           <li class="card">
             <div class="img" id="bi">
               <img src={Bi} alt="img" draggable="false"></img>
             </div>
-            <h2>Bí</h2>
+            <h2 id="h2-bi">Bí</h2>
             <span>Mùi hương của muối biển, những con sóng vỗ rì rào</span>
           </li>
           <li class="card">
             <div class="img" id="nau">
               <img src={Nau} alt="img" draggable="false"></img>
             </div>
-            <h2>Nâu</h2>
+            <h2 id="h2-nau">Nâu</h2>
             <span>Mùi hương của muối biển, những con sóng vỗ rì rào</span>
           </li>
         </ul>

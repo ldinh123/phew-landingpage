@@ -1,7 +1,8 @@
 import React from 'react';
-import { Advice, Brand, CTA, Feature, Navbar } from './components';
-import { About, Features, Footer, Header, Possibility } from './containers';
+import { Advice,  Feature, Navbar } from './components';
+import { About, Features, Footer, Header, Possibility,Possibility2, Title } from './containers';
 import './App.css'
+import { Routes,Route } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -11,16 +12,12 @@ const App = () => {
         <Header/> 
         <Feature/>
         <About/>
+        <Title/>
         <Possibility/>
-        <Brand/>
+        <Possibility2/>
         <Advice/>
         <Footer/>
       </div>
-      {/* 
-      <Features/>
-      <Possibility/>
-      <CTA/>*/}
-
     </div>
   )
 }

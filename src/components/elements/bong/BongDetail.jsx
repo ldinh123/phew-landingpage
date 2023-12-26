@@ -3,12 +3,13 @@ import Bong_element_2 from "../../../assets/11.png";
 import Bong_element_1 from "../../../assets/18.png";
 import Bong from "../../../assets/bong.png";
 import Bong_bg from "../../../assets/lp9.png";
+import "./bong.css";
 
 BongDetail.propTypes = {};
 
 function BongDetail(props) {
   return (
-    <div className="product bong">
+    <div className="product bong slide-right">
       <div className="product-img">
         <img
           src={Bong}

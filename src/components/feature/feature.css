@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=BeVietNamPro:wght@400;500;600&display=swap");
 
+.phew-feature {
+  padding-bottom: 100px;
+}
 .phew-feature-title > p {
   display: flex;
   font-family: "Be Vietnam Pro", sans-serif;
@@ -13,7 +16,6 @@
   width: 100%;
   display: flex;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 0;
   font-size: 45px;
   justify-content: center;
   flex-direction: row;

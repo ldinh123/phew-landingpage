@@ -2,6 +2,7 @@ import React from "react";
 import Nau_element_2 from "../../../assets/15.png";
 import Nau_element_1 from "../../../assets/4.png";
 import Nau from "../../../assets/nau.png";
+import "./nau.css";
 
 NauDetail.propTypes = {};
 

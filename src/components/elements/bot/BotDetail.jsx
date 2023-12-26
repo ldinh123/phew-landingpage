@@ -7,6 +7,7 @@ import Bot_element_3 from "../../../assets/8.png";
 import Bot_element_4 from "../../../assets/Artboard 22@4x.png";
 import Bot from "../../../assets/bot.png";
 import Bot_bg from "../../../assets/lp10.png";
+import "./bot.css";
 
 BotDetail.propTypes = {};
 

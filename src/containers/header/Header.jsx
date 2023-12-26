@@ -15,6 +15,7 @@ import element5 from "../../assets/5.png";
 import element7 from "../../assets/7.png";
 import element8 from "../../assets/8.png";
 import element9 from "../../assets/9.png";
+import phew from "../../assets/phew.png";
 import "./header.css";
 
 const Header = () => {
@@ -75,6 +76,9 @@ const Header = () => {
           <div className="element20">
             <img src={element20} alt="elm-20" style={{ height: "200px" }} />
           </div>
+        </div>
+        <div className="phew-center">
+          <img src={phew} alt="phew" style={{ height: "650px" }} />
         </div>
         {/* <div className="element2">
           <img src={element2} alt="elm-2" style={{ height: "150px" }} />

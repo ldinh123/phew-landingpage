@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
+
+.blog-container {
+  position: relative;
+}
+
+.blog-img img {
+  position: absolute;
+  height: 120px;
+  left: 700px;
+  top: -120px;
+}
+
+.blog-text p {
+  width: 100%;
+  display: flex;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 45px;
+  justify-content: center;
+  flex-direction: row;
+  font-weight: 400;
+}
+
+.blog-content .blog-item {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 100px;
+}
+
+.blog-item .card {
+  list-style: none;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.blog-item #item-1 {
+  scroll-snap-align: start;
+  list-style: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 20em;
+  height: 28em;
+  background-color: #255085;
+  border-radius: 3.5em;
+  padding: 2em 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-item #item-2 {
+  scroll-snap-align: start;
+  list-style: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 20em;
+  height: 28em;
+  background-color: #fb90b0;
+  border-radius: 3.5em;
+  padding: 2em 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-item #item-3 {
+  scroll-snap-align: start;
+  list-style: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 20em;
+  height: 28em;
+  background-color: #246920;
+  border-radius: 3.5em;
+  padding: 2em 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-item h2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #fff;
+  position: relative;
+  top: -240px;
+  left: 30px;
+  font-size: 26px;
+}
+
+.blog-content .card span {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #fff;
+  position: relative;
+  text-align: start;
+  top: -220px;
+  font-size: 18px;
+  left: 30px;
+}
+
+.blog-item .yellow-rect {
+  width: 15em;
+  height: 7em;
+  background-color: #fed245;
+  position: absolute;
+  left: 257px;
+  top: 90px;
+}
+
+.blog-item .brown-rect {
+  width: 15em;
+  height: 7em;
+  background-color: #6f2409;
+  position: absolute;
+  left: 677px;
+  top: 90px;
+}
+
+.blog-item .orange-rect {
+  width: 15em;
+  height: 7em;
+  background-color: #f94a1d;
+  position: absolute;
+  left: 1097px;
+  top: 90px;
+}
+
+.blog-content {
+  display: flex;
+  padding: 40px 35px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  scale: 0.8;
+  opacity: 0;
+  animation: fade-out linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+}
+
+@keyframes fade-out {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}

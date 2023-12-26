@@ -1,6 +1,6 @@
 import React from 'react';
 import { Advice,  Feature, Navbar } from './components';
-import { About, Features, Footer, Header, Possibility,Possibility2, Title } from './containers';
+import { About, Features, Footer, Header, Possibility,Possibility2, Title, Blog } from './containers';
 import './App.css'
 import { Routes,Route } from 'react-router-dom';
 
@@ -11,6 +11,7 @@ const App = () => {
         <Navbar/>
         <Header/> 
         <Feature/>
+        <Blog/>
         <About/>
         <Title/>
         <Possibility/>

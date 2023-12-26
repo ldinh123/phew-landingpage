@@ -72,3 +72,74 @@
     font-weight: 100;
   }
 }
+
+@keyframes advice-scroll-1 {
+  100% {
+    top: 200px;
+    right: -900px;
+  }
+}
+
+@keyframes advice-scroll-2 {
+  100% {
+    transform: rotate(-40deg);
+    top: 200px;
+    right: -1200px;
+  }
+}
+
+@keyframes advice-scroll-3 {
+  100% {
+    transform: rotate(0deg);
+    top: 600px;
+    right: -1200px;
+  }
+}
+
+@keyframes advice-scroll-4 {
+  100% {
+    transform: rotate(90deg);
+    top: 600px;
+    right: -750px;
+  }
+}
+
+@keyframes advice-scroll-5 {
+  100% {
+    transform: rotate(-30deg);
+    top: 800px;
+    right: -1000px;
+  }
+}
+
+@keyframes advice-scroll-6 {
+  100% {
+    transform: rotate(30deg);
+    top: 350px;
+    right: -800px;
+  }
+}
+
+@keyframes advice-scroll-7 {
+  100% {
+    transform: rotate(-30deg);
+    top: 600px;
+    right: -800px;
+  }
+}
+
+@keyframes advice-scroll-8 {
+  100% {
+    transform: rotate(30deg);
+    top: 500px;
+    right: -600px;
+  }
+}
+
+@keyframes advice-scroll-9 {
+  100% {
+    transform: rotate(45deg);
+    top: 600px;
+    right: -600px;
+  }
+}

@@ -157,6 +157,12 @@
   width: 100%;
 }
 
+.phew-header-container .phew-center {
+  position: absolute;
+  left: 350px;
+  z-index: -1;
+}
+
 @media screen and (max-width: 1024px) {
   .phew-header-container .element-r {
     position: relative;
@@ -426,5 +432,13 @@
     left: 845px;
     transform: rotate(0deg);
     z-index: -1;
+  }
+}
+
+@keyframes drop-1 {
+  0% {
+  }
+  100% {
+    top: 300px;
   }
 }

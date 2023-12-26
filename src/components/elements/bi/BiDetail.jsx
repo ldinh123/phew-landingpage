@@ -4,6 +4,7 @@ import Bi_element_4 from "../../../assets/14.png";
 import Bi_element_3 from "../../../assets/17.png";
 import Bi_element_2 from "../../../assets/Artboard 19@4x.png";
 import Bi from "../../../assets/bi.png";
+import "./bi.css";
 
 BiDetail.propTypes = {};
 

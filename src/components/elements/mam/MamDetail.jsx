@@ -5,6 +5,7 @@ import Mam_element_2 from "../../../assets/Artboard 32@4x.png";
 import Mam_element_1 from "../../../assets/Artboard 41@4x.png";
 import Mam_bg from "../../../assets/lp11.png";
 import Mam from "../../../assets/mam.png";
+import "./mam.css";
 
 MamDetail.propTypes = {};
 

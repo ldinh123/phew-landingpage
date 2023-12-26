@@ -33,6 +33,9 @@ const Advice = () => {
               top: "100px",
               right: "-800px",
               transform: "rotate(-15deg)",
+              animation: "advice-scroll-1 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "300px",
             }}
           />
           <img
@@ -68,6 +71,9 @@ const Advice = () => {
               position: "absolute",
               top: "250px",
               right: "-750px",
+              animation: "advice-scroll-6 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "300px",
             }}
           />
           <img
@@ -90,6 +96,9 @@ const Advice = () => {
               position: "absolute",
               top: "450px",
               right: "-300px",
+              animation: "advice-scroll-8 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -114,6 +123,9 @@ const Advice = () => {
               position: "absolute",
               top: "50px",
               right: "-1300px",
+              animation: "advice-scroll-2 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -148,6 +160,9 @@ const Advice = () => {
               top: "370px",
               right: "-800px",
               transform: "rotate(-30deg)",
+              animation: "advice-scroll-7 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "300px",
             }}
           />
           <img
@@ -171,6 +186,9 @@ const Advice = () => {
               position: "absolute",
               top: "20px",
               right: "-1300px",
+              animation: "advice-scroll-2 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -195,6 +213,9 @@ const Advice = () => {
               position: "absolute",
               top: "640px",
               right: "-650px",
+              animation: "advice-scroll-4 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -228,6 +249,9 @@ const Advice = () => {
               position: "absolute",
               top: "900px",
               left: "700px",
+              animation: "advice-scroll-4 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -251,6 +275,9 @@ const Advice = () => {
               top: "700px",
               left: "700px",
               transform: "rotate(90deg)",
+              animation: "advice-scroll-4 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -274,6 +301,9 @@ const Advice = () => {
               position: "absolute",
               top: "500px",
               left: "500px",
+              animation: "advice-scroll-9 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -299,6 +329,9 @@ const Advice = () => {
               top: "500px",
               right: "-1300px",
               transform: "rotate(25deg)",
+              animation: "advice-scroll-3 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -334,6 +367,9 @@ const Advice = () => {
               position: "absolute",
               top: "900px",
               right: "-1100px",
+              animation: "advice-scroll-5 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -368,6 +404,9 @@ const Advice = () => {
               top: "360px",
               right: "-1100px",
               transform: "rotate(150deg)",
+              animation: "advice-scroll-5 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img
@@ -391,6 +430,9 @@ const Advice = () => {
               position: "absolute",
               top: "350px",
               right: "-1400px",
+              animation: "advice-scroll-5 linear forwards",
+              animationTimeline: "view()",
+              animationRange: "200px",
             }}
           />
           <img

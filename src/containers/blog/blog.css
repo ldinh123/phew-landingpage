@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
-@import url("https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js");
 
 .blog-container {
   position: relative;
@@ -130,14 +129,17 @@
   justify-content: center;
   width: 100%;
   position: relative;
-  scale: 0.8;
-  opacity: 0;
+
   animation: fade-out linear forwards;
   animation-timeline: view();
   animation-range: entry;
 }
 
 @keyframes fade-out {
+  from {
+    scale: 0.8;
+    opacity: 0;
+  }
   to {
     scale: 1;
     opacity: 1;

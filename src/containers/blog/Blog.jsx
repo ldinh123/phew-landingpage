@@ -15,7 +15,12 @@ const Blog = () => {
         <p>Tại đây, Phew có trải nghiệm nến lạ.</p>
         <p>Phew tinh nghịch, lạ lẫm và không ngại khác biệt. </p>
       </div>
-      <div className="blog-content">
+      <div
+        className="blog-content"
+        style={{
+          animationTimeline: "view()",
+        }}
+      >
         <ul class="blog-item">
           <li class="card">
             <div class="img" id="item-1">

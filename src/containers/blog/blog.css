@@ -130,7 +130,7 @@
   width: 100%;
   position: relative;
   animation: fade-out linear forwards;
-  animation-range: entry;
+  animation-range: entry 100px;
 }
 
 @keyframes fade-out {

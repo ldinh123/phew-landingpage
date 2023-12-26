@@ -4,7 +4,6 @@ import blog from "../../assets/blog.png";
 import img_1 from "../../assets/18.png";
 import img_2 from "../../assets/17.png";
 import img_3 from "../../assets/1.png";
-import "https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js";
 
 const Blog = () => {
   return (
